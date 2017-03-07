@@ -1,1 +1,5 @@
-<video poster="{{p.thumb}}" data-setup="{}" id="player0" class="video-js vjs-default-skin vjs-big-play-centered vjs-16-9" controls preload="auto"><source src="http://content2.sexforsure.com/{{include.key}}/Video.mp4" type='video/mp4'></video>
+<script src="//content.jwplatform.com/libraries/V6NfEzT7.js"></script>
+<div id="myPlayer">&nbsp;</div>
+<script>
+jwplayer('myPlayer').setup({image:"{{page.thumb}}",file:"{{include.key}}",aspectratio:"16:9",width:"100%"});
+</script>
